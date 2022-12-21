@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name",
+        "job",
+        "updatedAt"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Sandi Kurnia"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "Test Engineer"
+            ]
+        },
+        "updatedAt": {
+            "type": "string",
+            "default": "",
+            "title": "The updatedAt Schema",
+            "examples": [
+                "2022-12-21T04:16:31.429Z"
+            ]
+        }
+    },
+    "examples": [{
+        "name": "Sandi Kurnia",
+        "job": "Test Engineer",
+        "updatedAt": "2022-12-21T04:16:31.429Z"
+    }]
+}
